@@ -5,6 +5,8 @@ Summary: Mes articles publiés ailleurs sur le net
 
 Cette page rassemble les quelques articles que j'ai eu l'occasion de publier ailleurs que sur ce blog.
 
+mai 2020 - [blog de Jungle Bus](https://junglebus.io/ou-sont-les-bornes-de-recharge-electrique-en-france-la-reponse-dans-openstreetmap/) / [blog d'OpenStreetMap France](https://www.openstreetmap.fr/ou-sont-les-bornes-de-recharge-electrique-en-france-la-reponse-dans-openstreetmap/)
+> Bilan du projet du mois de mars 2020 que j'ai co-organisé afin d'améliorer la couverture des bornes de recharge électrique dans OpenStreetMap
 
 mai 2020 - [blog de Ça reste ouvert](https://blog.caresteouvert.fr/ou-acheter-du-muguet-le-1er-mai/)
 > [Ça reste ouvert](https://caresteouvert.fr) est un projet de carte collaborative qui a pour objectif de limiter les déplacements infructueux dans le cadre du confinement lié à la crise sanitaire du covid-19. La carte répertorie les lieux qui restent ouverts, et utilise OpenStreetMap bien sûr ! <br>
