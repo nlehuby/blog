@@ -16,11 +16,11 @@ Mais ça, c'était avant ! Maintenant, on crée deux objets dans OSM :<br>
 Tout d'abord, pour désigner l'endroit où le voyageur attend le bus (ici, l'abribus), on crée un noeud, avec les tags *public_transport = platform*.<br>
 Pour bien préciser le mode (car ce tag s'applique aussi pour les arrêts de tram ou de train), et pour la rétro-compatibilité avec l'ancien modèle (notamment sur les outils de rendu), on ajoute également *highway = bus_stop*.
 
-Puis, on crée un deuxième noeud, qui représente l'endroit sur la chaussée où le bus s'arrête. À noter que le noeud doit faire partie du chemin décrivant la route et non pas être posé dessus.<br>
+Puis, on peut créer un deuxième noeud, qui représente l'endroit sur la chaussée où le bus s'arrête. À noter que le noeud doit faire partie du chemin décrivant la route et non pas être posé dessus.<br>
 Sur ce noeud, on ajoute les tags *public_transport = stop_position* et *bus=yes*
 
 Une fois qu'on a fait ça, on peut ajouter les infos contextuelles propres à cet arrêt, comme son nom (*name = ...*), s'il y a un abri (*shelter =yes/no*), un banc (*bench = yes/no*), une bande podotactile, etc<br>
-En général, on ajoutera tout ça uniquement sur l'objet *platform* (mais il est courant de répéter le nom aussi sur le *stop_position*).
+En général, on ajoutera tout ça uniquement sur l'objet *platform* (même s'il est courant de répéter le nom aussi sur le *stop_position*).
 
 ![image d'arrêt de bus avec les tags qui vont bien]({attach}images/20170528_bien_cartographier_les_bus/bus_stop_annote.png)
 
@@ -39,7 +39,7 @@ On lui ajoutera les autres tags suivants :
 Dans cette relation ligne de bus, on mettra les objets OSM qui représentent les variantes de tracés de la ligne, ses parcours.<br>
 En général, on aura au moins le parcours de la ligne en sens aller et le parcours de la ligne en sens retour. On trouvera aussi parfois le parcours spécial du matin qui s'arrête devant l'école, ou le parcours spécial du jeudi qui passe dans une autre rue à cause du marché.
 
-Les parcours (variantes de lignes) sont aussi des relations, de *type = route*.<br>
+Les parcours (variantes de lignes ou trajets) sont aussi des relations, de *type = route*.<br>
 On leur ajoute les tags suivants :
 
 * *route = bus* pour indiquer le mode

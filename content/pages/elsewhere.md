@@ -47,7 +47,7 @@ mai 2018 - [blog d'OpenStreetMap France](https://www.openstreetmap.fr/exitgmaps/
 > Une petite revue des alternatives pour se passer des services cartographiques de Google Maps
 
 octobre 2017 - [blog de MapContrib](https://blog.mapcontrib.xyz/fr/2017/10/connaissez-vous-navitia-io/)
-> Comment utiliser MapContrib pour maintenir à jour dans OpenStreetMap les positions et autres informations des stations de vélo libre service
+> Comment utiliser MapContrib pour maintenir à jour dans OpenStreetMap les positions et autres informations des stations de vélo en libre service
 
 aout 2017 - [blog de Kisio Digital](http://www.kisiodigital.com/Blog/Entry/id/131) / [blog de navitia](https://medium.com/@navitia.io/comment-am%C3%A9liorer-les-donn%C3%A9es-de-transport-ouvertes-b52fc1c145ed)
 > Une explication didactique d'un enrichissement réalisé à quatre mains sur les données open data d'Île-de-France Mobilités

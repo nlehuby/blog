@@ -47,10 +47,10 @@ En effet, Keepass est une solution libre de gestion de mot de passe : les mot de
 Bon on peut prendre Passe-Partout encore une fois mais s'il est vraiment court et pourri, ça revient un peu à installer une porte blindée mais à toujours laisser la clef sous le paillasson ;)
 
 Et on peut même sauvegarder le login par la même occasion, des fois que ça soit l'id de notre compte dans la base de données du système...<br>
-Par contre, comme pour un post-it, il faut l'avoir toujours sur soi, donc avoir des moyens de mettre à disposition de ses différents terminaux la base keepass par une solution de synchronisation ou de partage quelconque, ce qui ajoute un peu de complexité et des potentiels risques de sécurité.
+Par contre, comme pour un post-it, il faut l'avoir toujours sur soi, donc avoir des moyens de mettre à disposition de ses différents terminaux la base Keepass par une solution de synchronisation ou de partage quelconque, ce qui ajoute un peu de complexité et des potentiels risques de sécurité.
 
-Plus précisément, j'utilise une base keepass (kdbx) hébergée que je consulte avec [Keeweb](https://keeweb.info/), une interface web de gestion de mot de passe compatible avec le format Keepass.<br>
+Plus précisément, j'utilise une base Keepass (kdbx) hébergée que je consulte avec [Keeweb](https://keeweb.info/), une interface web de gestion de mot de passe compatible avec le format Keepass.<br>
 L'intérêt étant d'avoir quelque chose qui tourne aussi sur mobile y compris si c'est un Firefox OS. Et ça permet d'avoir une interface jolie et ergonomique, parce que c'est pas parce que j'ai envie d'utiliser des logiciels libres que je suis obligée d'utiliser que des trucs moches.
 
 Au final, je jongle un peu entre les statégies, mais je m'en sors pas si mal.<br>
-Bon, là par exemple, je viens d'essayer de me connecter sur un site en statégie "passwordless", mais le changement de mot de passe, que j'ai voulu faire avec la stratégie "sans mémoire", n'a pas fonctionnée car ... c'était déjà mon précédent mot de passe. Et à tous les coups, si je cherche dans Keeweb je vais trouver que le mot de passe SuperGenPass y est déjà consigné :p
+Bon, là par exemple, je viens d'essayer de me connecter sur un site en statégie "sans mot de passe", mais le changement de mot de passe, que j'ai voulu faire avec la stratégie "sans mémoire", n'a pas fonctionnée car ... c'était déjà mon précédent mot de passe. Et à tous les coups, si je cherche dans Keeweb je vais trouver que le mot de passe SuperGenPass y est déjà consigné :p
