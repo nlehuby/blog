@@ -5,6 +5,12 @@ Summary: Mes articles publiés ailleurs sur le net
 
 Cette page rassemble les quelques articles que j'ai eu l'occasion de publier ailleurs que sur ce blog.
 
+février 2023 - [blog de Jungle Bus](https://junglebus.io/formations-a-la-cartographie-des-reseaux-de-transport-a-kochi/)
+> Le retour d'expérience d'un projet de cartographie de réseaux de transport avec OpenStreetMap en Inde auquel j'ai participé
+
+août 2021 - [blog de Jungle Bus](https://junglebus.io/transport-conventionne-transport-informel-a-abidjan-du-terrain-a-la-carte/)
+> Le retour d'expérience d'un projet de cartographie de réseaux de transport avec OpenStreetMap en Côte d'Ivoire auquel j'ai participé
+
 mai 2020 - [blog de Jungle Bus](https://junglebus.io/ou-sont-les-bornes-de-recharge-electrique-en-france-la-reponse-dans-openstreetmap/) / [blog d'OpenStreetMap France](https://www.openstreetmap.fr/ou-sont-les-bornes-de-recharge-electrique-en-france-la-reponse-dans-openstreetmap/)
 > Bilan du projet du mois de mars 2020 que j'ai co-organisé afin d'améliorer la couverture des bornes de recharge électrique dans OpenStreetMap
 
@@ -17,7 +23,7 @@ avril 2020 - [blog de Ça reste ouvert](https://blog.caresteouvert.fr/contribute
 
 avril 2020 - [blog de Jungle Bus](https://junglebus.io/tout-savoir-sur-les-outils-pour-comparer-et-melanger-ses-donnees-de-transport/
 )
-> Deux études que j'ai réalisées pour Jungle Bus sur la modélisation des données transport les outils libres pour comparer et fusionner ces données.
+> Deux études que j'ai réalisées pour Jungle Bus sur la modélisation des données transport et les outils libres pour comparer et fusionner ces données.
 
 avril 2020 - [blog de Ça reste ouvert](https://blog.caresteouvert.fr/completer-les-infos-dun-lieu/)
 > Comment ajouter les informations de contacts utiles sur les commerces dans OpenStreetMap

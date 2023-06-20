@@ -15,20 +15,23 @@ Noémie Lehuby alias nlehuby
 
 **Propriété intellectuelle, droits d'auteur, licence d'utilisation du site** :
 
-L’ensemble de mon blog est placé sous Licence Creative Commons BY-NC-SA 4.0.
+L’ensemble de mon blog est placé sous Licence Creative Commons BY-SA 4.0.
 
 Cela signifie que si vous copiez un article ou le contenu de ce site :
 
 * vous devez me citer, intégrer un lien vers l'article en question et indiquer si des modifications ont été effectuées
 * vous devez diffuser votre contenu dans les mêmes conditions, que vous ayez effectué des modification ou non par rapport au contenu original
-* vous n’êtes pas autorisé à faire un usage commercial du contenu de ce site
+* vous n’êtes pas autorisé à ajouter des restrictions complémentaires
+* [En savoir plus](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
 
 Même si ce n'est pas obligatoire, j'apprécierai grandement d'être tenue informée des copies et utilisations faites à partir du contenu de mon blog ;)
+
+Sauf mention contraire explicite, les images publiées sur ce blog sont publiées sous la même licence. Plusieurs images contiennent des extraits de cartes produits à partir de données [OpenStreetMap](https://www.openstreetmap.org/copyright), elles-mêmes sous licence libre.
 
 
 **Avertissement général :**
 
-La consultation du ce blog vous est proposée à titre gratuit et sans aucune garantie.<br>
+La consultation du blog vous est proposée à titre gratuit et sans aucune garantie.<br>
 Je ne pourrai être tenu responsable de l’interprétation faite par les internautes, quelle qu’elle soit, des renseignements, informations et conseils proposés sur ce blog, et des conséquences pouvant en découler.
 
 **Gestion des données personnelles :**
@@ -42,5 +45,5 @@ Un grand merci aux développeurs opensource de ces solutions ;)
 
 **Contact :**
 
-Bravo si vous êtes arrivé en bas de cette page en l'ayant lue intégralement.<br>
+Bravo si vous êtes arrivé(e) en bas de cette page en l'ayant lue intégralement.<br>
 Si vous n'avez pas trouvé ce que vous étiez venu y chercher, n'hésitez pas à me contacter : noemie [point] lehuby [arobase] zaclys [point] net

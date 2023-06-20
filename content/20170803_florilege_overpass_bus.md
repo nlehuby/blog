@@ -10,7 +10,7 @@ Voici la liste des requêtes que je me suis enregistrées, sur la thématique de
 
 **Arrêts à proximité**<br>
 Liste des arrêts à 500 mètres d'une position (ici [48.86343,2.40997](http://www.openstreetmap.org/#map=18/48.86343/2.40997)) :
-```
+```xml
 [out:csv(::"id", name, public_transport, "ref:FR:STIF", ::"user")];
 //[out:json];
 node
@@ -21,7 +21,7 @@ out;
 
 **Arrêts à proximité, avec les parcours desservis**<br>
 Liste des arrêts à 500 mètres d'une position, avec le détail des parcours qui passent à ces arrêts :
-```
+```xml
 [out:json];
 (
   node
@@ -35,7 +35,7 @@ out body;
 
 **Arrêts d'une zone, avec les parcours desservis**<br>
 Liste des arrêts d'une zone géographique, avec comme précédemment, le détail des parcours qui passent à ces arrêts :
-```
+```xml
 [out:json];
 (
 node
@@ -49,7 +49,7 @@ out center;
 
 **Arrêts d'un parcours**<br>
 Liste de tous les arrêts d'un parcours en particulier (défini par son id, ici 1083331)
-```
+```xml
 [out:csv(::"id", name, public_transport, "ref:FR:STIF", ::"user")];
 relation(1083331);node(r:"platform");out meta;
 ```
@@ -62,7 +62,7 @@ relation(1257174);node(r:"stop");out meta;
 
 **Arrêts non desservis**<br>
 Liste des arrêts qui ne sont desservis par aucune ligne de bus.
-```
+```xml
 //[out:csv(::"id", name, public_transport)];
 [out:json];
 node({{bbox}})["highway"="bus_stop"]->.all;relation(bn.all)["route"="bus"];node(r);
@@ -71,7 +71,7 @@ node({{bbox}})["highway"="bus_stop"]->.all;relation(bn.all)["route"="bus"];node(
 
 **Arrêts sans nom**<br>
 Liste des arrêts de bus sans nom d'une zone géographique :
-```
+```xml
 [out:csv(::"id", public_transport, "ref:FR:STIF", ::"user")];
 (
 node
@@ -83,7 +83,7 @@ out body;
 
 **Nombre d'arrêts sans nom d'un parcours**<br>
 Liste des arrêts de bus d'un parcours qui n'ont pas de nom renseigné :
-```
+```xml
 [out:csv(total)];
 //[out:json];
 relation(1083331);node(r:"platform")[!"name"];out count;
@@ -92,7 +92,7 @@ Comme précédemment, si la ligne respecte le schéma v1 et non le v2, alors il 
 
 **Parcours d'une zone**<br>
 Liste des parcours de bus dans une zone géographique :
-```
+```xml
 [out:csv(::"id", name, network, operator, ::"user")];
 (
   relation["route"="bus"]({{bbox}});
@@ -102,7 +102,7 @@ out meta;
 
 **Parcours orphelins**<br>
 Liste des parcours de bus qui n'ont pas de ligne de bus associée
-```
+```xml
 [out:csv(::"id", name, network, operator, ::"user")];
 rel({{bbox}})["route"="bus"]->.all;
 rel["route_master"="bus"](br.all);
