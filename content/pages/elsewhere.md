@@ -5,6 +5,9 @@ Summary: Mes articles publiés ailleurs sur le net
 
 Cette page rassemble les quelques articles que j'ai eu l'occasion de publier ailleurs que sur ce blog.
 
+décembre 2023 - [blog de Jungle Bus](https://junglebus.io/cartographier-laccessibilite-avec-openstreetmap/)
+> Une présentation des possibilités offertes par OpenStreetMap pour cartographier les informations obligatoires dans le cadre de la loi LOM sur les cheminements piétons et l'accessibilité
+
 février 2023 - [blog de Jungle Bus](https://junglebus.io/formations-a-la-cartographie-des-reseaux-de-transport-a-kochi/)
 > Le retour d'expérience d'un projet de cartographie de réseaux de transport avec OpenStreetMap en Inde auquel j'ai participé
 
