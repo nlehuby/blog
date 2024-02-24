@@ -20,7 +20,7 @@ desservent ces différents arrêts.
 Tout d'abord, un petit rappel théorique (très court, très simple, promis
 !) :
 
-**EDIT 2017 : j'ai depuis rédigé [un article détaillé]({filename}../20170528_bien_cartographier_les_bus.md) sur comment bien cartographier des lignes de bus, n'hésitez pas à consulter cet article plutôt**
+**EDIT 2017 : j'ai depuis rédigé [un article détaillé]({filename}../20170528_bien_cartographier_les_bus_initial.md) sur comment bien cartographier des lignes de bus, n'hésitez pas à consulter cet article plutôt**
 
 </p>
 

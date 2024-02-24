@@ -2,9 +2,11 @@ Title: Bien cartographier les bus
 Date: 2017-05-28 15:24
 Author: nlehuby
 Tags: #osm, #junglebus
-Slug: bien-cartographier-les-bus
+Slug: bien-cartographier-les-bus-old
 
 Aujourd'hui, je vous propose quelques rappels théoriques sur comment bien cartographier les bus dans OSM.
+
+EDIT : cet article est un peu vieillissant mais est souvent partagé aux débutants qui se lancent vaillamment à l'assaut de la cartographie des bus. Il a donc été réécrit et légèrement modernisé : [Bien cartographier les bus dans OSM]({filename}20230224_bien_cartographier_les_bus.md).
 
 NB : Je prends pour référence [le modèle dit "Public Transport v2"](https://wiki.openstreetmap.org/wiki/Proposed_features/Public_Transport), approuvé par la communauté OSM en 2010. À noter qu'il n'y a pas eu de mise à niveau globale vers ce modèle et donc que le modèle historique, plus simple mais moins précis, continue d'exister et est souvent le seul reconnu par les outils utilisant les données OSM.
 
@@ -13,11 +15,11 @@ Pour commencer, on a l'arrêt de bus.<br>
 
 Dans le modèle historique, pour cartographier cet arrêt de bus, on se contentait de mettre un tag *highway = bus_stop*, en général au niveau du trottoir.<br>
 Mais ça, c'était avant ! Maintenant, on crée deux objets dans OSM :<br>
-Tout d'abord, pour désigner l'endroit où le voyageur attend le bus (ici, l'abribus), on crée un noeud, avec les tags *public_transport = platform*.<br>
+Tout d'abord, pour désigner l'endroit où le voyageur attend le bus (ici, l'abribus), on crée un nœud, avec les tags *public_transport = platform*.<br>
 Pour bien préciser le mode (car ce tag s'applique aussi pour les arrêts de tram ou de train), et pour la rétro-compatibilité avec l'ancien modèle (notamment sur les outils de rendu), on ajoute également *highway = bus_stop*.
 
-Puis, on peut créer un deuxième noeud, qui représente l'endroit sur la chaussée où le bus s'arrête. À noter que le noeud doit faire partie du chemin décrivant la route et non pas être posé dessus.<br>
-Sur ce noeud, on ajoute les tags *public_transport = stop_position* et *bus=yes*
+Puis, on peut créer un deuxième nœud, qui représente l'endroit sur la chaussée où le bus s'arrête. À noter que le nœud doit faire partie du chemin décrivant la route et non pas être posé dessus.<br>
+Sur ce nœud, on ajoute les tags *public_transport = stop_position* et *bus=yes*
 
 Une fois qu'on a fait ça, on peut ajouter les infos contextuelles propres à cet arrêt, comme son nom (*name = ...*), s'il y a un abri (*shelter =yes/no*), un banc (*bench = yes/no*), une bande podotactile, etc<br>
 En général, on ajoutera tout ça uniquement sur l'objet *platform* (même s'il est courant de répéter le nom aussi sur le *stop_position*).
@@ -60,7 +62,7 @@ Et dans cette relation parcours, on ajoute :
 En particulier, on ajoutera les *platform* avec le rôle ... *platform*, et les *stop_position* avec le rôle ... *stop* (ben oui, vous pensiez quand même pas que ça serait si simple !).<br>
 Et on le fera bien sûr pour toutes les lignes (ou plus précisément variantes de lignes) qui s'arrêtent à cet arrêt.
 
-Si vous avez bien suivi, on a donc des noeuds (*platform* et *stop_position*), qu'on met dans les relations (*type = route*), qu'on met elles-mêmes dans des relations (*type = route_master*)<br>
+Si vous avez bien suivi, on a donc des nœuds (*platform* et *stop_position*), qu'on met dans les relations (*type = route*), qu'on met elles-mêmes dans des relations (*type = route_master*)<br>
 ![route et route_master]({attach}images/20170528_bien_cartographier_les_bus/bus_dans_relation.png)
 
 À noter que dans le modèle historique, les relations parcours (*type = route*) contenaient uniquement les arrêts (*highway = bus_stop*) avec le rôle *stop*. Avec le nouveau modèle, les objets qui ont le tag *highway=bus_stop* ont en général plutôt le rôle *platform*.<br>
