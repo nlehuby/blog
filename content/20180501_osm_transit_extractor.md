@@ -16,6 +16,8 @@ Mais dans tous les cas, il nous faudra jongler dans nos filtres pour récupérer
 
 C'est pourquoi je suis ravie de vous présenter [osm-transit-extractor](https://github.com/CanalTP/osm-transit-extractor), une alternative qui apporte enfin aux transports en commun toute l'attention qu'ils méritent ;)
 
+EDIT 2023 : osm-transit-extractor n'existe plus (ou du moins n'est plus un logiciel libre et n'est plus librement utilisable). Si vous recherchez une alternative offrant des possibilités similaires, vous pouvez essayer [l'outil prism que j'ai développé pour Jungle Bus](https://github.com/Jungle-Bus/prism/).
+
 Pour un cas pratique, imaginons donc que vous voulez vous faire une idée des lignes de transports de Bretagne.
 
 osm-transit-extractor se présente sous la forme d'un exécutable (Linux uniquement pour le moment) : il suffit donc de le télécharger [depuis Github](https://github.com/CanalTP/osm-transit-extractor/releases) puis de le dézipper pour l'utiliser.

@@ -69,7 +69,7 @@ Mais là, pas moyen. Ça me rappelle ce tweet très à propos :
 
 > je dois échanger 1 billet en moins de 25 minutes
 
-> ![baborlelefan_twitter_img](https://pbs.twimg.com/media/BfzsynjIIAA4esz.jpg)
+> ![baborlelefan_twitter_img](https://pbs.twimg.com/media/BfzsynjIIAA4esz?format=jpg&name=900x900)
 
 
 > — Babor (@baborlelefan) [February 6,2014](https://twitter.com/baborlelefan/statuses/431480019127635970)

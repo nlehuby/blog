@@ -118,8 +118,8 @@ l’API Overpass pour avoir un résultat.
 
 Pour obtenir ce résultat, il faut passer ces paramètres à une instance
 Overpass (par exemple, [l’instance mondiale
-« principale »](http://api.openstreetmap.fr/oapi/interpreter?data=) ou
-[l’instance française](http://overpass-api.de/api/interpreter?data=)).
+« principale »](http://overpass-api.de/api/interpreter?data=) ou
+[l’instance française](http://api.openstreetmap.fr/oapi/interpreter?data=)).
 
 </p>
 
@@ -128,7 +128,7 @@ retourne les données OSM au format json :
 
 </p>
 
-[http://api.openstreetmap.fr/oapi/interpreter?data=[out:json][timeout:25]...](http://api.openstreetmap.fr/oapi/interpreter?data=[out:json][timeout:25];%28node[%22shop%22=%22bakery%22]%2848.84726471793433,2.370729446411133,48.86273852508843,2.385792732238769%29;way[%22shop%22=%22bakery%22]%2848.84726471793433,2.370729446411133,48.86273852508843,2.385792732238769%29;relation[%22shop%22=%22bakery%22]%2848.84726471793433,2.370729446411133,48.86273852508843,2.385792732238769%29;%29;out%20body;%3E;out%20skel%20qt;)
+[http://api.openstreetmap.fr/oapi/interpreter?data=[out:json][timeout:25]...](http://overpass-api.de/api/interpreter?data=[out:json][timeout:25];%28node[%22shop%22=%22bakery%22]%2848.84726471793433,2.370729446411133,48.86273852508843,2.385792732238769%29;way[%22shop%22=%22bakery%22]%2848.84726471793433,2.370729446411133,48.86273852508843,2.385792732238769%29;relation[%22shop%22=%22bakery%22]%2848.84726471793433,2.370729446411133,48.86273852508843,2.385792732238769%29;%29;out%20body;%3E;out%20skel%20qt;)
 
 </p>
 
@@ -191,7 +191,7 @@ les boulangeries ailleurs que sur le petit coin que j’ai choisi.
 Il faut donc indiquer à uMap de modifier la requête Overpass en fonction
 de l’endroit où se situe l’utilisateur sur la carte.
 
-</p>
+
 
 Cela se fait très simplement en remplacer toutes les occurrences des
 coordonnées dans la requête par les mots-clefs suivants
@@ -203,25 +203,7 @@ La requête Overpass devient alors :
 
 </p>
 ```
-[http://api.openstreetmap.fr/oapi/interpreter?data=[out:json][timeout:25];](http://api.openstreetmap.fr/oapi/interpreter?data=[out:json][timeout:25];)(node["shop"="bakery"]({south},{west},{north},{east});way["shop"="bakery"]({south},{west},{north},{east});relation["shop"="bakery"]({south},{west},{north},{east}););out
-body;\>;out skel qt;
-```
-</p>
-
- 
-
-Cela se fait très simplement en remplacer toutes les occurrences des
-coordonnées dans la requête par les mots-clefs suivants
-`{south},{west},{north},{east}` qui sont interprétés par uMap.
-
-</p>
-
-La requête Overpass devient alors :
-
-</p>
-```
-[http://api.openstreetmap.fr/oapi/interpreter?data=[out:json][timeout:25];](http://api.openstreetmap.fr/oapi/interpreter?data=[out:json][timeout:25];)(node["shop"="bakery"]({south},{west},{north},{east});way["shop"="bakery"]({south},{west},{north},{east});relation["shop"="bakery"]({south},{west},{north},{east}););out
-body;\>;out skel qt;
+https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];(node["shop"="bakery"]({south},{west},{north},{east});way["shop"="bakery"]({south},{west},{north},{east});relation["shop"="bakery"]({south},{west},{north},{east}););out body;>;out skel qt;
 ```
 </p>
 
