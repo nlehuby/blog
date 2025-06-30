@@ -5,6 +5,9 @@ Summary: Mes articles publiés ailleurs sur le net
 
 Cette page rassemble les quelques articles que j'ai eu l'occasion de publier ailleurs que sur ce blog.
 
+avril 2025 - [blog de Jungle Bus](https://junglebus.io/de-la-photo-a-la-carte/)
+> Bilan du projet de collecte de données d'accessibilité pour la communauté urbaine de Caen la mer auquel j'ai participé
+
 décembre 2023 - [blog de Jungle Bus](https://junglebus.io/cartographier-laccessibilite-avec-openstreetmap/)
 > Une présentation des possibilités offertes par OpenStreetMap pour cartographier les informations obligatoires dans le cadre de la loi LOM sur les cheminements piétons et l'accessibilité
 
