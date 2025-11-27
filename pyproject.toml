@@ -1,17 +1,13 @@
-[tool.poetry]
+[project]
 name = "blog"
 version = "0.1.0"
 description = ""
-authors = ["Noémie Lehuby <noemie.lehuby@zaclys.net>"]
-license = "CC-BY-SA"
-readme = "README.md"
+authors = [{ name = "Noémie Lehuby", email = "noemie.lehuby@zaclys.net" }]
+requires-python = ">=3.10,<4"
+readme = "readme.md"
+license = "CC-BY-SA-4.0"
+dependencies = [
+    "pelican[markdown]>=4.8.0,<5",
+    "Markdown>=3.4.3,<4",
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
-pelican = {extras = ["markdown"], version = "^4.8.0"}
-Markdown = "^3.4.3"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"

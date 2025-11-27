@@ -16,6 +16,7 @@
                 <meta name="twitter:creator" content="{{ article.author }}">
                 <meta name="twitter:url" content="{{ SITEURL }}/{{ article.url }}">
                 <meta name="twitter:title" content="{{ article.title }}">
+                <meta name="fediverse:creator" content="@nlehuby@fr.osm.social"/>
                 <meta property="og:title" content="{{ article.title }}"/>
                 <meta property="og:type" content="article"/>   
                 <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}"/>
@@ -44,6 +45,7 @@
                 {% block title %}{{ SITENAME }}
                 {% endblock title %}
             </title>
+            <a rel="me" href="https://fr.osm.social/@nlehuby">Mastodon</a>
             {# favicon #}
             <link rel="shortcut icon" type="image/png" href="{{ SITEURL }}/favicon.png">
             <link rel="shortcut icon" type="image/x-icon" href="{{ SITEURL }}/favicon.ico">
