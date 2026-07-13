@@ -17,7 +17,7 @@ Le GTFS est un format fréquemment utilisé pour décrire des données de transp
 Un fichier GTFS se présente sous la forme d'un fichier zip contenant tout un tas de fichiers texte. Malgré leur extension, il s'agit en réalité de fichiers csv qui peuvent être ouverts dans votre logiciel de tableur favori (LibreOffice Calc, Excel, etc).<br>
 La [documentation](https://github.com/google/transit) décrivant le contenu des fichiers, le détail des colonnes et comment les lier entre elles est disponible en ligne.
 
-Afin de se faciliter la tâche, j'utiliserai ici non pas le fichier GTFS directement, mais un export réalisé avec l'outil [GTFS geo](https://gtfs-geo.herokuapp.com/). Il permet en effet de transformer un fichier GTFS en un ensemble de fichiers géographiques, plus adaptés pour notre mission du jour et qui s'importeront aisément dans la plupart des outils d'éditions d'OpenStreetMap.
+Afin de se faciliter la tâche, j'utiliserai ici non pas le fichier GTFS directement, mais un export réalisé avec l'outil [GTFS geo](https://github.com/nlehuby/gtfs_geo). Il permet en effet de transformer un fichier GTFS en un ensemble de fichiers géographiques, plus adaptés pour notre mission du jour et qui s'importeront aisément dans la plupart des outils d'éditions d'OpenStreetMap.
 
 ![capture d'écran de l'interface de GTFS geo]({attach}images/20200901_gtfs/gtfs_geo.png)
 
@@ -45,13 +45,13 @@ Ce qui nous intéresse vraiment à ce stade est la précision du positionnement 
 
 Il faut aussi vérifier la manière dont les arrêts sont modélisés :  en effet, les arrêts du GTFS ne correspondent pas forcément à des arrêts tels qu'on peut les observer sur le terrain. On peut tout à fait avoir un unique arrêt GTFS pour les deux sens de circulation d'une ligne, même s'il correspond à deux abribus sur le terrain, ou à l'inverse plusieurs arrêts (un pour chaque ligne) pour représenter un arrêt de bus desservi par plusieurs lignes.
 
-![aperçu des arrêts dans JOSM]({attach}images/20200901_gtfs/stops_mapcontrib_1.png)
+![aperçu des arrêts dans MapContrib]({attach}images/20200901_gtfs/stops_mapcontrib_1.png)
 
 Bref, il faut passer un peu de temps à explorer les données pour identifier les petites surprises qui risqueraient de nous complexifier la tâche.
 
-Une fois que nous sommes familiarisés avec les arrêts du GTFS, nous pouvons attaquer la comparaison avec OpenStreetMap. Pour cela, on peut par exemple charger le fichier des arrêts dans [ce thème MapContrib](https://www.cartes.xyz/t/e7200d-Arrets_de_bus#). JOSM est également un très bon choix pour cette tâche.
+Une fois que nous sommes familiarisés avec les arrêts du GTFS, nous pouvons attaquer la comparaison avec OpenStreetMap. Pour cela, on peut par exemple charger le fichier des arrêts dans [ce thème MapContrib](https://www.cartes.xyz/t/e7200d-Arrets_de_bus#) [EDIT : MapContrib n'existe malheureusement plus]. JOSM est également un très bon choix pour cette tâche.
 
-![aperçu des arrêts dans JOSM]({attach}images/20200901_gtfs/stops_mapcontrib_2.png)
+![aperçu des arrêts dans MapContrib]({attach}images/20200901_gtfs/stops_mapcontrib_2.png)
 
 Si ce n'est pas encore fait, je vous conseille au préalable de passer un peu de temps à uniformiser les arrêts déjà présents dans OpenStreetMap pour la zone. Sans cela, il vous sera peut-être difficile de [répondre à des questions très simples](https://nlehuby.5apps.com/mais-je-veux-juste-la-liste-des-arrets-de-bus.html) comme "combien y a t-il d'arrêts de bus dans cette ville ?" en utilisant OpenStreetMap. <br>
 En effet, comme pour le GTFS, [plusieurs modélisations](https://nlehuby.5apps.com/bien-cartographier-les-bus.html) sont possibles, autant sur le positionnement de l'arrêt (sur la route, ou à côté) que sur les tags : respectez donc les pratiques locales lorsqu'elles existent. Sinon, je recommande la modélisation suivante, qui est compatible avec la plupart des rendus et outils qui tirent partie des données transport d'OpenStreetMap : un arrêt est représenté par un unique objet, placé à côté de la route, avec les tags `highway = bus_stop` et `public_transport = platform`.
