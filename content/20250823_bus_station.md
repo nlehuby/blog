@@ -103,7 +103,7 @@ L'outil [Réglisse](https://jungle-bus.github.io/transport-relation-creator/) pe
 
 Et si vous avez ainsi créé des relations, vous pouvez envoyer vos modifications, c'est déjà pas mal !
 
-Normalement, à la fin de cette étape, on a donc une petite coche devant chaque trajet qui passe dans la gare routière, et toutes ces trajets sont accessibles dans notre session JOSM. Il ne reste plus alors qu'à relier tout ça.
+Normalement, à la fin de cette étape, on a donc une petite coche devant chaque trajet qui passe dans la gare routière, et tous ces trajets sont accessibles dans notre session JOSM. Il ne reste plus alors qu'à relier tout ça.
 
 **Étape 5 : première passe de modification des lignes**
 
